@@ -128,7 +128,8 @@ Here's a recommended workflow for recovering failed imports:
 │  5. Import sanitized files one by one                       │
 │     → Most should succeed now                               │
 └─────────────────────────────────────────────────────────────┘
-⚠️ Common Errors & Solutions
+
+## ⚠️ Common Errors & Solutions
 Error Message	Cause	Solution
 Oorspronkelijke terugkerende afspraak kan niet worden gevonden	Master event missing or has empty series	Run sanitize_recovered.py
 Misvormde periodieke afspraak	Malformed RRULE	Manually inspect/edit the .ics file
